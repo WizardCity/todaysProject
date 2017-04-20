@@ -1,0 +1,24 @@
+{
+  "name": "todaysProject",
+  "version": "1.0.0",
+  "description": "Simple webpage for my activities",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "author": "Sean Harper",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "method-override": "*",
+    "mongoose": "*",
+    "bcrypt": "*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  }
+}
+
