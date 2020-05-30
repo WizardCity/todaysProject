@@ -1,0 +1,25 @@
+<!-- public/views/register.html -->
+<div class="jumbotron">
+
+	<form  ng-submit="addUser()">
+
+		<h2> Glad you could join us </h2>
+
+		<div class="container">
+		    <label><b>Username</b></label>
+		    <input type="text" placeholder="Enter Username" ng-model="user.username">
+
+        	<label><b>Email</b></label>
+        	<input type="email" placeholder="Enter Email" ng-model="user.email">
+
+		    <label><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" ng-model="user.password">
+				
+			<div class="btn_container">	
+				<button type="submit" class="btn btn-success">Sign Up</button>
+				<button type="button" class="btn btn-link"><a href="/">Cancel</a></button>
+		    </div>
+		</div>
+
+	</form>
+</div>

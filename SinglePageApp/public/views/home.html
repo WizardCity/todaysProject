@@ -1,0 +1,25 @@
+<!-- public/views/home.html -->
+<div class="homepage">
+	<h2>Project Feed</h2>
+</div>
+<div class="panel panel-default" ng-init="getHomePage()">
+	<div class="panel-body">
+		<div class="row">
+			<div ng-repeat="x in news">
+				<div class="col-md-6">
+					<div class="col-md-6" style="background-color: #eee; height:250px">
+
+						<h3 class="projectHeading">{{x.title}}</h3>
+						<p class="text-left">{{x.description}}</p>
+
+					</div>
+
+					<div class="col-md-6">
+						<iframe class="page_music" ng-src="{{x.video_url}}">
+						</iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

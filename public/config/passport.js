@@ -5,7 +5,7 @@ var JwtStrategy = require('passport-jwt').Strategy,
 
 module.exports = function(passport) {
 	var opts = {};
-	opts.jwtFromRequest = ExtractJwt.fromAuthHeader();
+	opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme("jwt");
 	opts.secretOrKey = config.secret;
 	passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
 		console.log(jwt_pay);

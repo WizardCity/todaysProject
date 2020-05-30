@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+                  "folder_include_patterns": [
+                  	"public",
+                  	"js", 
+                  	"views", 
+                  	"css",
+                  	"config",
+                  	"images",
+                  	"controllers",
+                        "routes",
+                        "models",
+                        "app_api",
+                        "private"
+                  ],
+                  "file_exclude_patterns": [
+                        "nodemon.json",
+                        ".bowerrc",
+                        "package.json",
+                        "bower.json"
+                  ]
+		}
+	]
+}

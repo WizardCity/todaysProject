@@ -3,18 +3,6 @@
 	[
 		{
 			"path": ".",
-                  "folder_include_patterns": [
-                  	"public",
-                  	"js", 
-                  	"views", 
-                  	"css",
-                  	"config",
-                  	"images",
-                  	"controllers",
-                        "routes",
-                        "models",
-                        "private"
-                  ],
                   "file_exclude_patterns": [
                         "nodemon.json",
                         ".bowerrc",

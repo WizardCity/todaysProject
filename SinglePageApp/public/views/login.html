@@ -1,0 +1,22 @@
+<!-- public/views/login.html -->
+
+<div class="jumbotron">
+  		
+	<form ng-submit="LoginUser()">
+
+	<h2> Welcome Back </h2>
+
+	<div class="container">
+    	<label><b>Username</b></label>
+    	<input type="text" placeholder="Enter Username" ng-model="user.username">
+
+    	<label><b>Password</b></label>
+    	<input type="password" placeholder="Enter Password" ng-model="user.password">
+		
+		<div class="btn_container">	
+    		<button type="submit" class="btn btn-success">Login</button>
+    	</div>
+    </div>
+
+    </form>
+</div>
